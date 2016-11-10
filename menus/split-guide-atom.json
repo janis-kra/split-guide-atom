@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle split-guide-atom",
+        "command": "split-guide-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "split-guide-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "split-guide-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
