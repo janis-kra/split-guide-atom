@@ -1,0 +1,6 @@
+{
+  "extends": "eslint-config-janiskra/base",
+  "globals": {
+    "atom": true
+  }
+}

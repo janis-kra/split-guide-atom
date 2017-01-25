@@ -2,17 +2,25 @@
   "name": "split-guide-atom",
   "main": "./lib/split-guide-atom",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
+  "description": "An Atom plugin that simplifies creating workshops using @kentcdodds split-guide",
+  "keywords": ["atom", "plugin", "workshop", "development", "productivity", "split-guide"],
   "activationCommands": {
-    "atom-workspace": "split-guide-atom:toggle"
+    "atom-workspace": [
+      "split-guide-atom:comment",
+      "split-guide-atom:final",
+      "split-guide-atom:workshop"
+    ]
   },
-  "repository": "https://github.com/atom/split-guide-atom",
+  "repository": "https://github.com/janis-kra/split-guide-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-janiskra": "*"
   }
 }
