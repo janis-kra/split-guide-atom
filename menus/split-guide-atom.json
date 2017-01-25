@@ -2,8 +2,16 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle split-guide-atom",
-        "command": "split-guide-atom:toggle"
+        "label": "Wrap in COMMENT comments",
+        "command": "split-guide-atom:comment"
+      },
+      {
+        "label": "Wrap in FINAL comments",
+        "command": "split-guide-atom:final"
+      },
+      {
+        "label": "Wrap in WORKSHOP comments",
+        "command": "split-guide-atom:workshop"
       }
     ]
   },
@@ -12,11 +20,19 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "split-guide-atom",
+          "label": "Split Guide",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "split-guide-atom:toggle"
+              "label": "Wrap in COMMENT comments",
+              "command": "split-guide-atom:comment"
+            },
+            {
+              "label": "Wrap in FINAL comments",
+              "command": "split-guide-atom:final"
+            },
+            {
+              "label": "Wrap in WORKSHOP comments",
+              "command": "split-guide-atom:workshop"
             }
           ]
         }
