@@ -13,7 +13,7 @@ This small Atom plugin fixes that problem by typing the comments for you when yo
 
 ## Installation
 
-Install it inside Atom via Settings -> Packages -> Search for 'split-guide-atom'. Or just `apm install split-guide-atom`
+Install it inside Atom via Settings -> Install -> Search for 'split-guide-atom' and click 'Install'. Or just `apm install split-guide-atom`
 
 ## Usage
 
