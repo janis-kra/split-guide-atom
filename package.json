@@ -1,7 +1,7 @@
 {
   "name": "split-guide-atom",
   "main": "./lib/split-guide-atom",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "An Atom plugin that simplifies creating workshops using @kentcdodds split-guide",
   "keywords": ["atom", "plugin", "workshop", "development", "productivity", "split-guide"],
   "activationCommands": {
